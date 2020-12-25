@@ -1,7 +1,7 @@
 
-    R01001_20201224_v1.csv is cleaned on Thu Dec 24 14:33:26 2020, by FHIR_cleaned_v1
+    R01001_20201224_v1.csv is cleaned on Thu Dec 24 15:18:33 2020, by FHIR_cleaned_v1
 
-    The data was downloaded from FHIR R01-001, including 32 samples(rows).
+    The data was downloaded from FHIR R01-001, including 48 samples(rows).
 
     9 variants(columns) had been selected and cleaned.
 
