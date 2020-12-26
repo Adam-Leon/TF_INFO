@@ -1,5 +1,5 @@
 
-    R01001_20201226_v1.csv is cleaned on Sat Dec 26 21:01:56 2020, by FHIR_cleaned_v1.py
+    R01001_20201226_v1.csv is cleaned on Sat Dec 26 21:21:05 2020, by FHIR_cleaned_v1.py
 
     The data was downloaded from FHIR R01-001, including 50 samples(rows).
 
