@@ -19,7 +19,7 @@ import pandas as pd
 #病人資料
 url = 'http://120.126.47.179:5555/fhir/QuestionnaireResponse/'
 datalist = []
-for i in  range(3,53):
+for i in  range(3,103):
     
     headers = {'Content-Type': 'application/json'}
     data = requests.request("GET" ,url+str(i)+'/' ,headers=headers)
