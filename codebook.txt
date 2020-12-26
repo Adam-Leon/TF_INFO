@@ -1,0 +1,40 @@
+
+    R01001_20201226_v1.csv is cleaned on Sat Dec 26 20:20:23 2020, by FHIR_cleaned_v1.py
+
+    The data was downloaded from FHIR R01-001, including 100 samples(rows).
+
+    9 variants(columns) had been selected and cleaned.
+
+    
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n
+    
+    All null values were kept null.
+
+    For numeric data, values out of selected range were set to -999.
+
+    For categorical data, values out of selected categories were labeled as Z.
+
+    
+    "id" representing "user id" was kept.
+
+    "age" representing "patient age" was treated as numeric data, 0 < age <= 100.
+
+    "gender" representing "patient gender" was treated as categorical data,  either male or female.
+
+    
+    "diebetes" representing "Have you been diagnosed with diabetes?" was treated as categorical data, either False or True.
+
+    "hyperlipidemia" representing "Have you been diagnosed with hyperlipidemia drugs" was treated as categorical data, either False or True.
+
+    "drink" representing "Do you drink regularly" was treated as categorical data, either False or True.
+
+
+    "g_bmi" representing "patient bmi" was treated as numeric data, 0 < g_bmi <= 50.
+
+    "g_ssr" representing "right hand systolic blood pressure" was treated as numeric data, 60 < g_ssr <= 300.
+
+     
+    "risk" representing "evaluated risk of having stroke" was treated as categorical data, low, middle or high
+
+    
+    
